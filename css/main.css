@@ -1,5 +1,5 @@
 .button-1 {
-    background-color: #4CAF50; /* Green */
+    background-color: #00FFFF; /* AQUA */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -7,4 +7,54 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    border-radius: 8px;
+}
+
+.button-1 {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button-1:hover {
+    background-color: #f44336; /* red */
+    color: white;
+}
+
+.button-1:active {
+  background-color: #f44336;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.body {
+	background-image: url("https://i.imgur.com/6KNoDxt.jpg");
+	background-size: cover;
+}
+
+.title {
+	text-align: center;
+}
+
+.footer {
+	font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	font-weight: bold;
+	position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
 }
